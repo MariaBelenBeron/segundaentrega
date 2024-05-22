@@ -65,19 +65,22 @@ body{
     font-size: x-large;
     margin-bottom: 50px;
 }
+
 .totalcuotas{
     margin-left: 60px;
 }
+
 .Cuantascuotas{
     margin-left: 60px;
 }
+
 .totalenvio{
     margin-left: 60px;
 }
+
 footer{
-    /*background-color:  rgba(83, 232, 255, 0.099);*/
     background: rgb(83,231,255);
-background: linear-gradient(10deg, rgba(83,231,255,0.2497373949579832) 0%, rgba(247,247,247,1) 81%);
+    background: linear-gradient(10deg, rgba(83,231,255,0.2497373949579832) 0%, rgba(247,247,247,1) 81%);
     text-align: center;
     padding: 5%;
 }
