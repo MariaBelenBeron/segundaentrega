@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+* {
+    margin:0;
+    padding: 0%;
+}
+
+header{
+    background: rgb(83,231,255);
+    background: linear-gradient(180deg, rgba(83,231,255,0.2497373949579832) 0%, rgba(247,247,247,1) 100%);
+    padding: 20px;
+    top:0%;
+}
+
+body{
+    background: rgba(247,247,247,1);
+}
+
+.compras img{
+    width: 150px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.compras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+
+.compras> div{
+    box-shadow: 0px 0px 5px 0px;
+    background-color: rgba(247,247,247,1);
+    border-radius: 10px;
+}
+
+.informacion{
+    font-size:large;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.informacion button{
+    background: rgb(83,231,255);
+    background: linear-gradient(10deg, rgba(90, 216, 235, 0.462) 0%, rgb(147, 205, 242) 81%);
+    color: white;
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.total {
+    margin-left: 60px;
+    font-size: x-large;
+    margin-bottom: 50px;
+}
+.totalcuotas{
+    margin-left: 60px;
+}
+.Cuantascuotas{
+    margin-left: 60px;
+}
+.totalenvio{
+    margin-left: 60px;
+}
+footer{
+    /*background-color:  rgba(83, 232, 255, 0.099);*/
+    background: rgb(83,231,255);
+background: linear-gradient(10deg, rgba(83,231,255,0.2497373949579832) 0%, rgba(247,247,247,1) 81%);
+    text-align: center;
+    padding: 5%;
+}
