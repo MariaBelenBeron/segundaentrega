@@ -55,7 +55,7 @@ function mostrarTotal(total) {
 function finalizarCompra() {
     if (carrito.length > 0) {
         const shopping = new Compra(carrito);
-        let resultado = confirm("¿Desea consultar cuotas sin interes?");
+        let resultado = confirm("¿Desea pagar en cuotas sin interes?");
         let cuotas;
         if (resultado) {
             cuotas = prompt("Ingrese la cantidad de cuotas (3, 6 o 12):").trim();
